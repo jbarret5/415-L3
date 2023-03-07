@@ -1,6 +1,7 @@
 .nav {
      .menu {
           @include listreset;
+          display: flex;
           .menu-item {
                a{
                     text-decoration: none;

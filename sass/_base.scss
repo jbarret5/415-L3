@@ -1,8 +1,28 @@
 .header {
-     background-color: $color__blue;
+     background-color: $color__baige;
      color: $color__grey;
 }
 
 .main {
      padding: 5vw;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+.bigimg {
+     height: 500px;
+     width: 500px;
+
+}
+
+.imgrow {
+     width: 300px;
+     display: flex;
+     justify-content: center;
+}
+
+.buttonRow {
+     display: flex;
+     justify-content: center;
 }
